@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(234, 234, 234);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 40px;
+}
+
+.header div {
+  display: flex;
+}
+
+.header span {
+  display: flex;
+  align-items: center;
+  color: grey;
+  height: 50px;
+  cursor: pointer;
+}
+
+.header span img {
+  width: 18px;
+}
+
+.header span p {
+  margin-right: 5px;
+  font-size: 0.9;
+}
+
+.button {
+  background-color: #a62626;
+  color: #fff;
+  height: 40px;
+  width: 100px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.header .menu {
+  position: relative;
+}
+
+.header .activeMenu {
+  position: absolute;
+  top: 52px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 5px;
+}
+
+.header .deactiveMenu {
+  display: none;
+}
+
+.header .activeMenu span {
+  padding: 20px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  cursor: pointer;
+}
+
+.header .activeMenu span:hover {
+  background-color: rgb(246, 246, 246);
+}
